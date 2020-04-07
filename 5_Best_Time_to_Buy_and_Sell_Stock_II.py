@@ -20,7 +20,7 @@ class Solution(object):
         return profit
 
 class TestSolution(object):
-	def testMaxProfile(self):
+	def testMaxProfit(self):
 		solution = Solution()
 
 		prices = [7,1,5,3,6,4]
@@ -41,4 +41,4 @@ class TestSolution(object):
 		print('Result: ', result)
 		print('Correct result: ', 0)
 
-# TestSolution().testMaxProfile()
+# TestSolution().testMaxProfit()

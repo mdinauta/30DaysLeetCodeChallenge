@@ -36,6 +36,7 @@ class Solution(object):
             if cur_sum == k:
                 counter += 1
 
+            # running_sum_x = running_sum_y - target_sum
             if (cur_sum-k) in previous_sums:
                 counter += previous_sums[cur_sum-k]
 
